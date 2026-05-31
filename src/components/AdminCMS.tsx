@@ -127,7 +127,7 @@ export default function AdminCMS({ onToast, onClose }: AdminCMSProps) {
   if (loading) {
     return (
       <div id="cmsLoading" className="p-12 text-center text-sm font-semibold text-slate-500">
-        Memuat Panel CMS Administrasi ASFIN...
+        Memuat Panel CMS Administrasi ManKeu ( Management Keuangan )...
       </div>
     );
   }
@@ -158,7 +158,7 @@ export default function AdminCMS({ onToast, onClose }: AdminCMSProps) {
         <div>
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-6 h-6 text-cyan-400" />
-            <h2 className="text-xl font-bold tracking-tight">ASFIN Admin CMS</h2>
+            <h2 className="text-xl font-bold tracking-tight">ManKeu ( Management Keuangan ) Admin CMS</h2>
             <span className="text-[10px] bg-cyan-400/20 text-cyan-300 font-bold px-2 py-0.5 rounded">Protected Route</span>
           </div>
           <p className="text-xs text-slate-300 mt-1">Konfigurasi teks sistem, pantau pertumbuhan user, kelola Gemini key, dan amati candlestick cashflow</p>

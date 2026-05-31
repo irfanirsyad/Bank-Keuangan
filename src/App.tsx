@@ -35,7 +35,7 @@ export default function App() {
   const [cmsConfig, setCmsConfig] = useState<any>({
     announcement: "Pemberitahuan: Pemindaian struk berbasis AI dengan Gemini 3.5 Flash sudah aktif secara penuh!",
     heroImage: "",
-    platformText: "Revolusi Keuangan Dimulai dari ASFIN. Mengelola pengeluaran dan pemasukan dengan kecerdasan bertenaga AI.",
+    platformText: "Revolusi Keuangan Dimulai dari ManKeu ( Management Keuangan ). Mengelola pengeluaran dan pemasukan dengan kecerdasan bertenaga AI.",
   });
 
   // Modal manual forms representation
@@ -211,22 +211,16 @@ export default function App() {
 
       {/* STAGE A: LANDING PAGE */}
       {appFlowState === 'landing' && (
-        <div id="landingView" className="flex-1 flex flex-col justify-between bg-[#006591] text-white relative">
+        <div id="landingView" className="flex-1 flex flex-col justify-between bg-grid-pattern text-white relative">
           
-          {/* Static Backdrop overlay matching specs images */}
-          <div className="absolute inset-0 w-full h-full opacity-40 mix-blend-overlay pointer-events-none">
-            <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6SuQjjsnP_YyM-waF2k0rTWLwCxVlxMjexHb9SVTQ6H0oiRZ2xBbopkJDpUnVLCvm_tqlDUNZ2ENVM_YgR16DsUN4OVq0ylsHGg5Rg24c1EfAFN9JwWgeD9welaWVrVnO4XzepqjYBMS_dJjLsoMN6HnGSXzJyMDJDjdEs3P8pHW1X2RBv45UCJ6bzyGqz2SHxg5Lvmu6D-BjGDAeAfkALyXR1P_LpJFhK4a-SVBiJ7eZUYN4RWGnMcEHLqGgG9yYZaHiphlxp8s" 
-              className="w-full h-full object-cover" 
-              alt="landing bg" 
-            />
-          </div>
+          {/* Subtle radial mask overlay for high contrast grid aesthetic */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(13,21,39,0.3)_0%,#0d1527_90%)] pointer-events-none" />
 
           {/* Landing Header */}
           <nav className="relative z-10 flex justify-between items-center px-6 md:px-12 py-5 bg-white/10 backdrop-blur-md border-b border-white/15">
             <div className="flex items-center gap-2">
               <div className="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center font-bold text-lg shadow">🧾</div>
-              <span className="text-xl font-black tracking-tight">ASFIN</span>
+              <span className="text-xl font-black tracking-tight">ManKeu ( Management Keuangan )</span>
             </div>
             <div className="flex items-center gap-4">
               <button 
@@ -237,9 +231,9 @@ export default function App() {
               </button>
               <button 
                 onClick={() => setAppFlowState('auth')} 
-                className="bg-white text-sky-850 font-bold px-5 py-2.5 rounded-full text-xs hover:scale-105 active:scale-95 transition-transform shadow-md"
+                className="bg-white text-slate-900 font-bold px-5 py-2.5 rounded-full text-xs hover:scale-105 active:scale-95 transition-transform shadow-md"
               >
-                Mulai Gratis
+                Registrasi
               </button>
             </div>
           </nav>
@@ -264,7 +258,7 @@ export default function App() {
               className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6"
             >
               Revolusi Keuangan <br />
-              <span className="text-yellow-300">Dimulai dari ASFIN</span>
+              <span className="text-yellow-300">Dimulai dari ManKeu ( Management Keuangan )</span>
             </motion.h1>
 
             <motion.p 
@@ -290,7 +284,7 @@ export default function App() {
 
           {/* Features segment */}
           <div className="relative z-10 max-w-6xl mx-auto px-6 pb-20 w-full">
-            <h3 className="text-center text-sm uppercase tracking-widest font-extrabold text-slate-200 mb-10">Fitur Unggulan ASFIN</h3>
+            <h3 className="text-center text-sm uppercase tracking-widest font-extrabold text-slate-200 mb-10">Fitur Unggulan ManKeu ( Management Keuangan )</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
               
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 text-center flex flex-col items-center gap-3">
@@ -322,7 +316,7 @@ export default function App() {
 
           {/* Landing Footer */}
           <footer className="relative z-10 border-t border-white/10 bg-black/10 py-6 text-center text-xs text-slate-300">
-            <p>© 2026 ASFIN - Pencatatan Keuangan untuk Ipanzx. Semua hak dilindungi.</p>
+            <p>© 2026 ManKeu ( Management Keuangan ) - Pencatatan Keuangan untuk Ipanzx. Semua hak dilindungi.</p>
           </footer>
 
         </div>
@@ -342,7 +336,7 @@ export default function App() {
             <div className="p-6 border-b border-slate-100 flex items-center justify-between">
               <div className="flex items-center gap-2 text-slate-800">
                 <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-base shadow text-white">🧾</div>
-                <span className="text-lg font-black tracking-tight bg-gradient-to-r from-blue-700 to-indigo-700 bg-clip-text text-transparent">ASFIN</span>
+                <span className="text-[13px] font-black tracking-tight bg-gradient-to-r from-blue-700 to-indigo-700 bg-clip-text text-transparent">ManKeu ( Management Keuangan )</span>
               </div>
               <span className="text-[9px] bg-blue-100 text-blue-700 font-bold px-2 py-0.5 rounded uppercase">PRO</span>
             </div>

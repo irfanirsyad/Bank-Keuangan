@@ -42,7 +42,7 @@ export interface DBSchema {
 const DEFAULT_SETTINGS = {
   announcement: "Pemberitahuan: Pemindaian struk berbasis AI dengan Gemini 3.5 Flash sudah aktif secara penuh!",
   heroImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuA6SuQjjsnP_YyM-waF2k0rTWLwCxVlxMjexHb9SVTQ6H0oiRZ2xBbopkJDpUnVLCvm_tqlDUNZ2ENVM_YgR16DsUN4OVq0ylsHGg5Rg24c1EfAFN9JwWgeD9welaWVrVnO4XzepqjYBMS_dJjLsoMN6HnGSXzJyMDJDjdEs3P8pHW1X2RBv45UCJ6bzyGqz2SHxg5Lvmu6D-BjGDAeAfkALyXR1P_LpJFhK4a-SVBiJ7eZUYN4RWGnMcEHLqGgG9yYZaHiphlxp8s",
-  platformText: "Revolusi Keuangan Dimulai dari ASFIN. Mengelola pengeluaran dan pemasukan dengan kecerdasan bertenaga AI.",
+  platformText: "Revolusi Keuangan Dimulai dari ManKeu ( Management Keuangan ). Mengelola pengeluaran dan pemasukan dengan kecerdasan bertenaga AI.",
   geminiApiKeySecured: process.env.GEMINI_API_KEY || "MY_GEMINI_API_KEY"
 };
 

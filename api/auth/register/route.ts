@@ -65,7 +65,7 @@ router.post("/send-otp", async (req: Request, res: Response): Promise<void> => {
         apiKey: apiKey,
         to: sanitizedEmail,
         subject: "Verifikasi Registrasi Pencatatan Keuangan",
-        text: `Kode OTP Anda adalah: ${otpCode}. Kode ini hanya berlaku 1x untuk pendaftaran di ASFIN.`,
+        text: `Kode OTP Anda adalah: ${otpCode}. Kode ini hanya berlaku 1x untuk pendaftaran di ManKeu ( Management Keuangan ).`,
         gmailUser: gmailUser,
         gmailAppPassword: gmailAppPassword
       })

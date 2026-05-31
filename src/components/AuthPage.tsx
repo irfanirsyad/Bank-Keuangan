@@ -145,7 +145,7 @@ export default function AuthPage({ onAuthSuccess }: AuthPageProps) {
           <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-cyan-500 to-sky-600 flex items-center justify-center shadow-lg shadow-sky-100 mb-4 text-white">
             <Sparkles className="w-8 h-8 animate-pulse" />
           </div>
-          <h1 className="text-3xl font-extrabold tracking-tight text-sky-900">ASFIN</h1>
+          <h1 className="text-2xl font-extrabold tracking-tight text-sky-900">ManKeu ( Management Keuangan )</h1>
           <p className="text-sm text-slate-500 mt-1">
             {isLogin 
               ? "Kelola keuangan lebih cerdas dengan Analisis AI" 

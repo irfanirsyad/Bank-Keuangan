@@ -1,4 +1,4 @@
--- Schema for Pencatatan Keuangan (ASFIN) - Supabase / PostgreSQL
+-- Schema for Pencatatan Keuangan (ManKeu - Management Keuangan) - Supabase / PostgreSQL
 
 -- 1. Create enum type for transaction type and wallet
 CREATE TYPE transaction_type AS ENUM ('pemasukan', 'pengeluaran');
@@ -77,7 +77,7 @@ CREATE TABLE public.settings (
 
 -- Init settings values with platform presets
 INSERT INTO public.settings (key, value) VALUES
-('platform_text', 'Revolusi Keuangan Dimulai dari ASFIN. Teknologi AI terdepan yang mengubah cara Anda mengelola keuangan.'),
+('platform_text', 'Revolusi Keuangan Dimulai dari ManKeu ( Management Keuangan ). Teknologi AI terdepan yang mengubah cara Anda mengelola keuangan.'),
 ('hero_image', 'https://lh3.googleusercontent.com/aida-public/AB6AXuA6SuQjjsnP_YyM-waF2k0rTWLwCxVlxMjexHb9SVTQ6H0oiRZ2xBbopkJDpUnVLCvm_tqlDUNZ2ENVM_YgR16DsUN4OVq0ylsHGg5Rg24c1EfAFN9JwWgeD9welaWVrVnO4XzepqjYBMS_dJjLsoMN6HnGSXzJyMDJDjdEs3P8pHW1X2RBv45UCJ6bzyGqz2SHxg5Lvmu6D-BjGDAeAfkALyXR1P_LpJFhK4a-SVBiJ7eZUYN4RWGnMcEHLqGgG9yYZaHiphlxp8s'),
 ('announcement', 'Mulai hari ini, Anda dapat memanfaatkan pemindaian struk berbasis AI dengan Gemini 3.5 Flash secara instan!'),
 ('gemini_api_key', 'YOUR_API_KEY');

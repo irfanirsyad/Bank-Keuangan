@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "admin-uid-1111",
+      "email": "admin@asfin.com",
+      "passwordHash": "admin123",
+      "verified": true,
+      "role": "admin",
+      "dailyLimit": 2000000,
+      "createdAt": "2026-05-15T00:00:00.000Z"
+    },
+    {
+      "id": "user-uid-2222",
+      "email": "user@asfin.com",
+      "passwordHash": "user123",
+      "verified": true,
+      "role": "user",
+      "dailyLimit": 500000,
+      "createdAt": "2026-05-20T00:00:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "userId": "user-uid-2222",
+      "type": "pemasukan",
+      "date": "2026-05-25",
+      "title": "Gaji Bulanan Utama",
+      "category": "Gaji",
+      "amount": 8500000,
+      "wallet": "Bank",
+      "description": "Transfer gaji Mei dari kantor pusat.",
+      "createdAt": "2026-05-25T08:00:00.000Z"
+    },
+    {
+      "id": "tx-2",
+      "userId": "user-uid-2222",
+      "type": "pengeluaran",
+      "date": "2026-05-26",
+      "title": "Makan Siang & Kopi",
+      "category": "Makan",
+      "amount": 120000,
+      "wallet": "Dana",
+      "description": "Kopi Kenangan & Nasi Padang.",
+      "createdAt": "2026-05-26T12:30:00.000Z"
+    },
+    {
+      "id": "tx-3",
+      "userId": "user-uid-2222",
+      "type": "pengeluaran",
+      "date": "2026-05-27",
+      "title": "Tagihan Listrik PLN",
+      "category": "Tagihan",
+      "amount": 250000,
+      "wallet": "Bank",
+      "description": "Pembayaran token bulanan.",
+      "createdAt": "2026-05-27T10:00:00.000Z"
+    },
+    {
+      "id": "tx-4",
+      "userId": "user-uid-2222",
+      "type": "pengeluaran",
+      "date": "2026-05-28",
+      "title": "Nonton Bioskop IMAX",
+      "category": "Hiburan",
+      "amount": 85000,
+      "wallet": "Cash",
+      "description": "Weekend movie tiket.",
+      "createdAt": "2026-05-28T19:45:00.000Z"
+    },
+    {
+      "id": "tx-5",
+      "userId": "user-uid-2222",
+      "type": "pemasukan",
+      "date": "2026-05-29",
+      "title": "Hasil Jual Barang Bekas",
+      "category": "Lainnya",
+      "amount": 350000,
+      "wallet": "Cash",
+      "description": "COD monitor rusak.",
+      "createdAt": "2026-05-29T14:20:00.000Z"
+    },
+    {
+      "id": "tx-6",
+      "userId": "user-uid-2222",
+      "type": "pengeluaran",
+      "date": "2026-05-30",
+      "title": "Bensin Motor Bulanan",
+      "category": "Transportasi",
+      "amount": 150000,
+      "wallet": "Dana",
+      "description": "Pertamax Pertamina.",
+      "createdAt": "2026-05-30T16:00:00.000Z"
+    },
+    {
+      "id": "tx-7",
+      "userId": "user-uid-2222",
+      "type": "pengeluaran",
+      "date": "2026-05-31",
+      "title": "Grosir Sembako Mingguan",
+      "category": "Belanja",
+      "amount": 350000,
+      "wallet": "Dana",
+      "description": "Belanja beras, minyak, dan telur di Indomaret.",
+      "createdAt": "2026-05-31T07:49:00.000Z"
+    }
+  ],
+  "settings": {
+    "announcement": "Pemberitahuan: Pemindaian struk berbasis AI dengan Gemini 3.5 Flash sudah aktif secara penuh!",
+    "heroImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuA6SuQjjsnP_YyM-waF2k0rTWLwCxVlxMjexHb9SVTQ6H0oiRZ2xBbopkJDpUnVLCvm_tqlDUNZ2ENVM_YgR16DsUN4OVq0ylsHGg5Rg24c1EfAFN9JwWgeD9welaWVrVnO4XzepqjYBMS_dJjLsoMN6HnGSXzJyMDJDjdEs3P8pHW1X2RBv45UCJ6bzyGqz2SHxg5Lvmu6D-BjGDAeAfkALyXR1P_LpJFhK4a-SVBiJ7eZUYN4RWGnMcEHLqGgG9yYZaHiphlxp8s",
+    "platformText": "Revolusi Keuangan Dimulai dari ManKeu ( Management Keuangan ). Mengelola pengeluaran dan pemasukan dengan kecerdasan bertenaga AI.",
+    "geminiApiKeySecured": "AIzaSyAxWB61KJGOgJS81QXGuQu_y7-cqgg05Bk"
+  }
+}

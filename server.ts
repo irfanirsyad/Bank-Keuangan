@@ -400,7 +400,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`[ASFIN SERVER] Running successfully on port http://0.0.0.0:${PORT}`);
+    console.log(`[ManKeu ( Management Keuangan ) SERVER] Running successfully on port http://0.0.0.0:${PORT}`);
   });
 }
 
