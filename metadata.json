@@ -1,0 +1,6 @@
+{
+  "name": "ASFIN - Pencatatan Keuangan",
+  "description": "A highly secure and modern financial tracking application powered by Gemini AI, featuring active receipts analysis, multi-wallet balance tracking, daily budgeting, CSV exports, Google Sheets synchronization, and an admin CMS with a candlestick analytics chart.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
